@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="seata-account-service5003" />
+        <module name="seata-stock-service5002" />
+        <module name="cloud-consumer-order81" />
+        <module name="seate-order-service5001" />
+        <module name="cloudcommon" />
+        <module name="cloud-provider-payment9002" />
+        <module name="cloud-provider-payment9001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-account-service5003" target="1.8" />
+      <module name="cloud-order-service5001" target="1.8" />
+      <module name="cloud-stock-service5002" target="1.8" />
+      <module name="cloudapicommon" target="1.8" />
+      <module name="cloudorderservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
